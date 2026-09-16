@@ -1,0 +1,12 @@
+{
+  "name": "personal-agent",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Agent v1 pessoal de squad (DEV/SM)",
+  "scripts": {
+    "start": "node --experimental-strip-types engine/runtime-manager.ts start",
+    "status": "node --experimental-strip-types engine/runtime-manager.ts status",
+    "refresh": "node --experimental-strip-types engine/runtime-manager.ts refresh",
+    "close": "node --experimental-strip-types engine/runtime-manager.ts close"
+  }
+}
